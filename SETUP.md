@@ -22,10 +22,10 @@ The [`demo-folder`](demo-folder) contains a fictional company's files with probl
 2. First time only: **Continue** → choose your account → if you see "Google hasn't verified this app," click **Advanced → Go to Brain Health Check** → **Allow**. Then click **Scan a folder…** again.
 3. Paste the folder link → **OK** → open the **Results** tab.
 
-**Expected result for the practice folder (12 files):**
+**Expected result for the practice folder (11 files):**
 - 🔴 1 Fix now: the "FINAL (1)" pricing file (shared with anyone, and an old copy of the official one)
 - 🟠 4 Tidy up: three versions of the inspection SOP (none marked OFFICIAL) and the 2025 pricing file
-- 🟢 7 OK, including the OFFICIAL pricing file, marked ✅ "Official version"
+- 🟢 6 OK, including the OFFICIAL pricing file, marked ✅ "Official version"
 
 ## Settings
 At the top of `BrainHealthCheck.gs`, `STALE_DAYS = 180` controls when a file counts as "not edited in a long time." Change it and save to adjust.

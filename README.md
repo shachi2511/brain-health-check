@@ -1,6 +1,6 @@
 # Brain Health Check
 
-**Try it:** [Open the live Google Sheet](PASTE-YOUR-SHEET-LINK-HERE) (click **File → Make a copy** to get your own working copy) · **Setup:** [SETUP.md](SETUP.md) · **Code:** [src/BrainHealthCheck.gs](src/BrainHealthCheck.gs)
+**Try it:** [Open the live Google Sheet](https://docs.google.com/spreadsheets/d/10tF07cUHmcB6nPZ2wIb3puViNPiDPHWG8PbCw8S5FkE/edit?usp=sharing) (click **File → Make a copy** to get your own working copy) · **Setup:** [SETUP.md](SETUP.md) · **Code:** [src/BrainHealthCheck.gs](src/BrainHealthCheck.gs)
 
 ![Results tab after scanning the practice folder](screenshots/results.png)
 
