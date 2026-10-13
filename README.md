@@ -1,55 +1,44 @@
 # Brain Health Check
 
-**Try it:** [Open the live Google Sheet](https://docs.google.com/spreadsheets/d/10tF07cUHmcB6nPZ2wIb3puViNPiDPHWG8PbCw8S5FkE/edit?usp=sharing) (click **File → Make a copy** to get your own working copy) · **Setup:** [SETUP.md](SETUP.md) · **Code:** [src/BrainHealthCheck.gs](src/BrainHealthCheck.gs)
+**Try it:** [Google Sheet](https://docs.google.com/spreadsheets/d/10tF07cUHmcB6nPZ2wIb3puViNPiDPHWG8PbCw8S5FkE/edit?usp=sharing) · **Practice folder:** [Google Drive](https://drive.google.com/drive/folders/1qSCKlfOpUcWLfocXgBFUCCqI7POZtWin?usp=drive_link) · **Code:** [github.com/shachi2511/brain-health-check](https://github.com/shachi2511/brain-health-check)
 
-![Results tab after scanning the practice folder](screenshots/results.png)
+![Results after checking the practice folder](screenshots/results.png)
 
----
+## What it is
 
-**In one line:** a checkup for a Drive folder before our AI assistant is allowed to read it.
+A one-click checkup for a Google Drive folder, before our AI assistant (Gemini Enterprise) is allowed to read it.
 
-## What it does
+When an AI reads a messy folder, it can quote an old price or show a private file to the wrong person. This tool finds those problem files, so they can be fixed first.
 
-When our AI assistant (Gemini Enterprise, "the Brain") reads a messy folder, it can quote an old price or show a private file to the wrong person. So before a folder is connected, it needs tidying. But nobody wants to open hundreds of files by hand to find the mess.
+## What it does to your folder
 
-This tool does that for you. Give it a folder link, click one button, and it looks at every file and answers three questions:
+**Nothing.** It only looks at file names, last-edited dates and who can open each file. It never opens, changes, moves or deletes anything. It flags three things:
 
-1. **Is this file shared too widely?** For example, a price list anyone with the link can open. → 🔴 **Fix now**
-2. **Are there several versions of the same thing?** For example, "Pricing 2025", "Pricing FINAL (1)" and "OFFICIAL Pricing". The AI can't tell which is right. → 🟠 **Tidy up** (it also tells you which one is marked official, or that none is)
-3. **Has nobody touched it in 6+ months?** It might be out of date. → ⚪ **Check**
+- 🔴 **Fix now:** anyone with the link can open the file
+- 🟠 **Tidy up:** several versions of the same file (like "Pricing FINAL (1)" and "Copy of Pricing"), so the AI can't tell which one is right
+- ⚪ **Check:** not edited in 6+ months, or open to the whole company
 
-Files with no problems show as 🟢 **OK**. Next to each problem, it says in plain words what to do, like "change sharing to Restricted" or "move to the Archive folder."
+## Which folders to check
 
-**Example:** in a practice folder, it found three price lists (one of them an old copy that anyone with the link could open) and three versions of the inspection rulebook with none marked official. The old rulebook had an outdated rule in it, exactly the kind of thing that makes an AI give a wrong answer.
+Any company folder you plan to let the AI read: shared team folders, client folders, and folders with policies, pricing or proposals. It works best on folders with lots of files from lots of people, because that's where duplicates and loose sharing build up.
 
-It **only reads** file names, dates and sharing settings. It never opens, changes, moves or deletes anything.
+## Try it in 5 steps
 
-## How to use it
+1. **Make your own copy** of the Google Sheet: **File → Make a copy**. The menu only works in your copy.
+2. **Open the practice folder,** a fictional company with problems planted on purpose: [Green Harbor practice folder](https://drive.google.com/drive/folders/1qSCKlfOpUcWLfocXgBFUCCqI7POZtWin?usp=drive_link). Copy that link. Or use any real company folder you have access to.
+3. **(Optional) Use your own copy of the files:** [download them from GitHub](https://github.com/shachi2511/brain-health-check/archive/refs/heads/main.zip), unzip, and upload **demo-folder → Green_Harbor_Demo_Drive** to Google Drive (**New → Folder upload**).
+4. **Run it:** in your copy of the Sheet, click **Brain Health Check** (top menu, after Help) → **Scan a folder…** The first time, Google asks for permission: **Continue** → your account → if it says *"Google hasn't verified this app,"* click **Advanced → Go to … (unsafe) → Allow**. This warning appears because we built the tool ourselves. Then click **Scan a folder…** again.
+5. **Paste the folder link** and click **OK**.
 
-1. Open the Sheet and click the **Brain Health Check** menu at the top (next to Help).
-2. Click **Scan a folder…**
-3. Paste the link to a Drive folder (open the folder in Drive and copy the address bar). Click **OK**.
-4. Open the **Results** tab. The summary at the top shows how many problems were found.
-5. Fix the 🔴 rows first, then the 🟠 rows. Click any file name to open that file.
-6. Run the scan again to check your fixes. Aim for a folder with no red or orange before it's connected to the Brain.
+## What you'll see
 
-**First time only:** Google asks for permission to read your Drive. Click **Continue**, choose your account, then **Allow**. If you see "Google hasn't verified this app," click **Advanced** → **Go to Brain Health Check**. This appears because we built the tool ourselves.
+A **Results** tab with a summary at the top (for example: *Fix now 1 · Tidy up 4 · OK 6*), then one row per file, worst first. Each row says what's wrong and what to do, like *"change sharing to Restricted"* or *"move to the Archive folder."* Click any file name to open it.
 
-**Opened a view-only link?** Click **File → Make a copy** to get your own working copy with the menu.
+With the practice folder: 🔴 the "FINAL (1)" price list (anyone can open it, and it's an old copy); 🟠 three versions of the inspection rulebook with none marked official, plus the old 2025 price list; 🟢 everything else, with the official price list marked ✅.
 
-## When it breaks
+## If something goes wrong
 
-| What you see | What to do |
-|---|---|
-| No "Brain Health Check" menu | Reload the page and wait a few seconds. On a view-only link, make a copy first (see above). |
-| "That doesn't look like a Drive folder link" | You pasted a file link. Open the **folder** in Drive and copy that link instead. |
-| "I couldn't open that folder" | You don't have access to it. Ask the folder's owner to share it with you. |
-| A file is flagged as a duplicate but isn't | Its name looks like another file's. Rename one so the names are clearly different. |
-| "Who can open it" says "Could not check" | Normal for some shared drive files. Check the sharing in Drive by hand. |
-| Anything else | Send a screenshot to [your name] in Google Chat. |
-
-## Good to know
-
-- It spots duplicates **by name**, not by reading the contents. Two files with very different names but the same content won't be caught.
-- "Not edited in 6+ months" is a hint, not a rule. Some files (like a policy) are fine to leave alone for years.
-- Large folders (thousands of files) may take a minute or two.
+- **No "Brain Health Check" menu?** Reload the page and wait a few seconds. On a view-only link, make a copy first (step 1).
+- **"That doesn't look like a Drive folder link"?** You copied a file link. Open the folder itself and copy that link.
+- **"I couldn't open that folder"?** You don't have access. Ask the folder's owner to share it with you.
+- **A file flagged as a duplicate that isn't one?** Its name looks like another file's. Rename one so the names are clearly different.
