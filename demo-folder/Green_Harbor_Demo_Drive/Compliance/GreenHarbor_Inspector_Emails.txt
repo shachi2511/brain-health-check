@@ -1,0 +1,40 @@
+EMAIL THREAD (fictional, for a training exercise)
+Subject: Upcoming compliance inspection - Green Harbor Cannabis Co.
+
+---
+From: R. Alvarez, State Compliance Inspector (fictional)
+To: Maya Ortiz, Green Harbor Cannabis Co.
+Date: Monday, October 5, 2026
+
+Hello Ms. Ortiz,
+
+This confirms your routine compliance inspection on Thursday, October 15, 2026 at 10:00 AM.
+
+Ahead of the visit, please send:
+1. Confirmation that security camera footage is retained for at least 90 days.
+2. Training records for the two staff members hired in September.
+
+Regards,
+R. Alvarez
+
+---
+From: Maya Ortiz, Green Harbor Cannabis Co.
+To: R. Alvarez
+Date: Wednesday, October 7, 2026
+
+Hello Mr. Alvarez,
+
+Thank you. I can confirm our cameras keep footage for 90 days, as set out in our Inspection Readiness SOP. I will follow up on the remaining item.
+
+Best,
+Maya Ortiz
+Compliance Lead
+
+---
+From: R. Alvarez
+To: Maya Ortiz
+Date: Friday, October 9, 2026
+
+Thank you for the camera confirmation. I am still waiting on the training records for the September hires. Please send them before the inspection.
+
+R. Alvarez

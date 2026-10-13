@@ -1,0 +1,23 @@
+GREEN HARBOR CANNABIS CO. (fictional company for a training exercise)
+OFFICIAL - Inspection Readiness SOP, version 3
+Owner: Maya Ortiz, Compliance Lead
+Last reviewed: August 4, 2026 | Next review: February 4, 2027
+
+PURPOSE
+Make sure every store is ready for a state compliance inspection at any time.
+
+INSPECTION CHECKLIST
+1. License: the current state license is displayed at the front counter and is not expired.
+2. Inventory: physical counts are reconciled with the tracking system every week. Any difference above 1% for a batch must have a written explanation in the reconciliation sheet before the inspection.
+3. Lab results: every batch on the shelf must have a passing lab test result dated within the last 12 months. Batches without a valid result must be pulled from the shelf.
+4. Labels: every package shows batch number, test date and required warnings.
+5. Security cameras: footage is kept for at least 90 days. Any camera outage must be logged in the incident log with start and end times.
+6. Staff training: every staff member, including new hires, has completed compliance training before working a shift. Training records are kept in the HR training folder.
+7. Visitor log: every non-staff visitor to back-of-house areas signs the visitor log.
+
+BEFORE AN INSPECTION
+- The Compliance Lead reviews this checklist with the store manager 5 business days before the inspection.
+- Any gap found gets an owner and a fix date.
+
+QUESTIONS
+Contact Maya Ortiz, Compliance Lead.
