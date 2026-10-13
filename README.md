@@ -1,6 +1,6 @@
 # Brain Health Check
 
-**Try it:** [Google Sheet](https://docs.google.com/spreadsheets/d/10tF07cUHmcB6nPZ2wIb3puViNPiDPHWG8PbCw8S5FkE/edit?usp=sharing) · **Practice folder:** [Google Drive](https://drive.google.com/drive/folders/1qSCKlfOpUcWLfocXgBFUCCqI7POZtWin?usp=drive_link) · **Code:** [github.com/shachi2511/brain-health-check](https://github.com/shachi2511/brain-health-check)
+**Try it:** [Google Sheet](https://docs.google.com/spreadsheets/d/10tF07cUHmcB6nPZ2wIb3puViNPiDPHWG8PbCw8S5FkE/edit?usp=sharing) ·  **Code:** [github.com/shachi2511/brain-health-check](https://github.com/shachi2511/brain-health-check)
 
 ![Results after checking the practice folder](screenshots/results.png)
 
@@ -25,7 +25,7 @@ Any company folder you plan to let the AI read: shared team folders, client fold
 ## Try it in 5 steps
 
 1. **Make your own copy** of the Google Sheet: **File → Make a copy**. The menu only works in your copy.
-2. **Open the practice folder,** a fictional company with problems planted on purpose: [Green Harbor practice folder](https://drive.google.com/drive/folders/1qSCKlfOpUcWLfocXgBFUCCqI7POZtWin?usp=drive_link). Copy that link. Or use any real company folder you have access to.
+2. **Open the practice folder,** use any real company folder you have access to with multiple files related to a single client.
 3. **(Optional) Use your own copy of the files:** [download them from GitHub](https://github.com/shachi2511/brain-health-check/archive/refs/heads/main.zip), unzip, and upload **demo-folder → Green_Harbor_Demo_Drive** to Google Drive (**New → Folder upload**).
 4. **Run it:** in your copy of the Sheet, click **Brain Health Check** (top menu, after Help) → **Scan a folder…** The first time, Google asks for permission: **Continue** → your account → if it says *"Google hasn't verified this app,"* click **Advanced → Go to … (unsafe) → Allow**. This warning appears because we built the tool ourselves. Then click **Scan a folder…** again.
 5. **Paste the folder link** and click **OK**.
